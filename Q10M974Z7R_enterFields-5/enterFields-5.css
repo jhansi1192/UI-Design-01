@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    font-family: "Roboto";
+
+}
+
+.bg-container {
+    background-color: #FFB6C1;
+    padding: 30px;
+
+
+}
+
+@media screen and (min-width:576px) {
+    .elements {
+        display: flex;
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    .elements {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+}
+
+.heading {
+    color: white;
+    font-size: 20px;
+}
+
+
+@media screen and (min-width:576px) {
+    .heading {
+        font-size: 20px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .heading {
+        font-size: 30px;
+    }
+
+}
+
+.text {
+    color: white;
+    font-size: 10px;
+}
+
+
+@media screen and (min-width:576px) {
+    .text {
+        font-size: 15px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .text {
+        font-size: 18px;
+    }
+
+}
+
+
+.ele {
+    background-color: #483d8b;
+    color: white;
+    padding: 12px;
+    border-width: 0px;
+    border-radius: 5px;
+    width: 90%;
+
+}
+
+@media screen and (min-width:576px) {
+    .ele {
+        padding: 12px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .ele {
+        padding: 30px;
+        border-radius: 12px;
+        width: 70%;
+    }
+
+}
+
+
+.place {
+    font-size: 20px;
+}
+
+.card-container {
+    padding: 20px;
+    background-color: #fffafa;
+    margin-top: 20px;
+    margin: 6px;
+    border-radius: 8px;
+    width: 80%
+}
+
+@media screen and (min-width:576px) {
+    .card-container {
+        padding: 30px;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .card-container {
+        padding: 40px;
+        width: 60%
+    }
+
+}
+
+.input {
+    width: 80%;
+    border-color: #FFFAFA;
+    border-width: 1px;
+    margin: 4px;
+    font-size: 10px;
+    color: #B8B8B8;
+    height: 30px;
+
+}
+
+
+@media screen and (min-width:576px) {
+    .input {
+        font-size: 11px;
+        margin: 5px;
+    }
+}
+
+
+@media screen and (min-width:768px) {
+    .input {
+        margin: 11px;
+    }
+}
+
+
+.button {
+    background-color: #17B169;
+    color: white;
+    border-width: 0px;
+    width: 100%;
+    padding: 12px;
+    margin: 12px;
+    font-size: 8px;
+    width: 80%;
+}
+
+@media screen and (min-width:768px) {
+    .button {
+        padding: 15px;
+        font-size: 10px;
+    }
+}
+
+
+
+
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.agrreing {
+    color: #808080;
+    font-size: 10px;
+    text-align: center;
+}
+
+
+.terms {
+    color: red;
+}
+
+@media screen and (min-width:768px) {
+    .flex-container1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+}
